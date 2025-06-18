@@ -1,0 +1,42 @@
+.app {
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  transition: background 0.3s;
+}
+.app.light {
+  background: #f0f0f0;
+  color: #000;
+}
+.app.dark {
+  background: #222;
+  color: #fff;
+}
+.calculator {
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.btn {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+.btn.light {
+  background: #fff;
+  color: #000;
+}
+.btn.dark {
+  background: #333;
+  color: #fff;
+}
